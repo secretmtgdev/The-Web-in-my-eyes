@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'www-in-my-eyes';
+  title = 'The World Wide Web in my eyes';
+
+  /** Used for page routing. */
+  topic = '';
+
+  ngOnInit() {
+    this.topic = '';
+
+  }
 }

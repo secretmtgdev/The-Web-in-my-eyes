@@ -1,0 +1,68 @@
+<h1>
+    {{title}}
+</h1>
+<article>
+    <header>
+        <h2>Accessing a Webpage, sparknotes edition</h2>
+        <p>There is a great article by Maneesha Wijesinghe @ <a rel=author href="https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a"><strong>Medium.com</strong></a>, please check it out for more depth on the subject matter. This page is my sparknote version from her <a rel=author href="https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a"><strong><em>article</em></strong></a>.</p>
+    </header>
+    <section>
+        <h3>The plan</h3>
+        <p>Not a whole lot here other than knowing the page you want to access.</p>
+    </section>
+    <section>
+        <h3>Finding the <strong><a title="Internet Protocal" href="https://en.wikipedia.org/wiki/IP_address">IP</a></strong> address</h3>
+        <ul>
+            <li>If found in <strong>Browser</strong> cache, return IP adddress</li>
+            <li>Else if found in <strong><a rel=help title="Operating System" href="https://en.wikipedia.org/wiki/Operating_system">OS</a></strong> cache, return IP address</li>
+            <li>Else if found in <strong>Router</strong> cache, return IP address</li>
+            <li>Else if found in <strong><a rel=help title="Internet Service Provider" href="https://en.wikipedia.org/wiki/Internet_service_provider">ISP</a></strong> cache, return IP address</li>
+            <li>Else use <strong><a rel=help title="Domain Name System" href="https://en.wikipedia.org/wiki/Domain_Name_System">DNS</a></strong> to query and find IP address</li>
+            <ul>
+                <li>Access '.' aka root server</li>
+                <li>Access '.com' server</li>
+                <li>Access 'site.com' server, if target || contains subdomain queried, return address, else return error</li>
+            </ul>
+        </ul>
+    </section>
+    <section>
+        <h3>The handshake</h3>
+        <ul>
+            <li>Client sends message to server</li>
+            <li>Server either accepts or rejects and sends decision back to client</li>
+            <li>Client gives a thumbs up to the response</li>
+        </ul>
+    </section>
+    <section>
+        <h3>The actual request</h3>
+        <p>Client sends <strong><a rel=help title="Hypertext Transfer Protocal" href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a></strong> request to server using the appropriate HTTP method</p>
+    </section>
+    <section>
+        <h3>The decision</h3>
+        <ul>
+            <li>Server receives and reads request</li>
+            <li>Server attempts to find sources</li>
+            <li>Server constructs message to send back</li>
+        </ul>
+    </section>
+    <section>
+        <h3>The final act</h3>
+        <ul>
+            <li>Display raw <strong><a rel=help title="Hypertext Markup Language" href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></strong></li>
+            <li>Send GET request to access CSS, images, JS sources</li>
+        </ul>
+    </section>
+    <section>
+        <h3>Response types</h3>
+        <ul>
+            <li>1xx - Information</li>
+            <li>2xx - Success</li>
+            <li>3xx - Redirection</li>
+            <li>4xx - Client error</li>
+            <li>5xx - Server error</li>
+        </ul>
+    </section>
+    <footer>
+
+    </footer>
+</article>
